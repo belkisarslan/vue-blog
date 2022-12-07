@@ -1,13 +1,15 @@
 <template>
   <div class="hello">
-    <h1>Anasayfa</h1>
+    <Container/>
   </div>
 </template>
 
 <script>
+import Container from './Container.vue';
+
 export default {
-  name: 'HelloWorld',
-  
+    name: "HelloWorld",
+    components: { Container }
 }
 </script>
 
