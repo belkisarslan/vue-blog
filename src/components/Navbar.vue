@@ -28,9 +28,8 @@
     </nav>
   </div>
 </template>
-<script>
-export default {};
-</script>
+
+<script></script>
 <style>
 nav{
     background-color: #2c3e50;

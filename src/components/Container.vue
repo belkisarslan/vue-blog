@@ -4,20 +4,23 @@
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-6">
           <div class="text-center my-5">
-            <img alt="Vue logo" src="../assets/logo.png">
+            <img alt="Vue logo" src="../assets/logo.png" />
             <h1 class="display-5 fw-bolder text-white mb-2">
-             Vue.js ile ilgili blog yazıları
+              Vue.js ile ilgili blog yazıları
             </h1>
             <p class="lead text-white-50 mb-4">
-              Öğrenme sürecinde doküman okumanın yanında blog yazıları okuyarak gelişiminizi hızlandırabilirsiniz!
+              Öğrenme sürecinde doküman okumanın yanında blog yazıları okuyarak
+              gelişiminizi hızlandırabilirsiniz!
             </p>
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-              <a class="btn btn-outline-light btn-lg px-4 me-sm-3" href="#features"
-                >Yayınlanmış yazılar</a
-              >
-              <a class="btn btn-outline-light btn-lg px-4" href="#!"
-                >Yeni bir yazı yayınla!</a
-              >
+              <router-link :to="{ name: 'Post' }">
+                <a class="btn btn-outline-light btn-lg px-4 me-sm-3">
+                  Yayınlanmış yazılar
+                </a>
+              </router-link>
+              <router-link :to="{ name: 'AddPost' }"><a class="btn btn-outline-light btn-lg px-4">
+                Yeni bir yazı yayınla!
+              </a></router-link>
             </div>
           </div>
         </div>
@@ -28,4 +31,6 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+
+</style>
