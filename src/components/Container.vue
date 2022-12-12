@@ -14,11 +14,11 @@
             </p>
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
               <router-link :to="{ name: 'Post' }">
-                <a class="btn btn-outline-light btn-lg px-4 me-sm-3">
+                <a class="buton btn btn-outline-dark btn-lg px-4 me-sm-3">
                   Yayınlanmış yazılar
                 </a>
               </router-link>
-              <router-link :to="{ name: 'AddPost' }"><a class="btn btn-outline-light btn-lg px-4">
+              <router-link :to="{ name: 'AddPost' }"><a class="buton btn btn-outline-dark btn-lg px-4">
                 Yeni bir yazı yayınla!
               </a></router-link>
             </div>
@@ -32,5 +32,11 @@
 export default {};
 </script>
 <style>
-
+ .buton{
+  box-shadow: 0 12px 20px 0 #055f41, 0 6px 12px 0 #2387f9;
+  color: #999;
+ }
+ .buton:hover{
+  color: #fff;
+ }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand">Vue Blog</a>
         <button
@@ -33,6 +33,7 @@
 <style>
 nav{
     background-color: #2c3e50;
+    box-shadow: 0 12px 20px 0 #055f41, 0 6px 12px 0 #2387f9;
 }
 a{
     text-decoration: none;
