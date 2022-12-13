@@ -37,12 +37,14 @@
 import { ref } from 'vue';
 import { fb } from '../firebase/config'
 import { addDoc, collection, getFirestore } from 'firebase/firestore/lite';
+import { useRouter } from 'vue-router'
  
 export default {
     setup(){
         const title = ref();
         const name = ref();
         const message = ref();
+        const router = useRouter()
 
         function handleSubmit(){
             const post = {
@@ -53,6 +55,9 @@ export default {
         const db = getFirestore(fb)
         const fbRef = collection(db,"posts")
         addDoc(fbRef, post)
+        router.push({
+            name: "Post"
+        })
         }
        return {title, name, message, handleSubmit}
         
