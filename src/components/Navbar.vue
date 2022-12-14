@@ -35,6 +35,9 @@ nav{
     background-color: #2c3e50;
     box-shadow: 0 12px 20px 0 #055f41, 0 6px 12px 0 #2387f9;
 }
+.navbar-toggler{
+  box-shadow: 0 4px 4px 0 #055f41, 0 4px 2px 0 #2387f9;
+}
 a{
     text-decoration: none;
 }

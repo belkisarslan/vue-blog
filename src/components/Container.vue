@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark py-5">
+  <div class="bg-dark">
     <div class="container px-5">
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-6">
