@@ -1,19 +1,5 @@
 # vue-blog
 
-## Project setup
-```
-npm install
-```
+## Firebase desteği ile geliştirilmiş bir Vue.js projesi
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Live Demo [Vue Blog](https://vue-blog-project.netlify.app/).
