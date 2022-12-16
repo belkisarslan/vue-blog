@@ -34,7 +34,7 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <h2 class="display-4 style-text">Çılgın 2</h2>
-                            <p class="style-text">Bence Vue.js aslında yok. Hepsi bir ilizyon!</p>
+                            <p class="style-text">Bence Vue.js aslında yok. Hepsi bir illüzyon!</p>
                         </div>
                     </div>
                 </div>
